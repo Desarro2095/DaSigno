@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DaSigno.DA\DaSigno.DA.csproj" />
+    <ProjectReference Include="..\DaSigno.DT\DaSigno.DT.csproj" />
+    <ProjectReference Include="..\DaSigno.SP\DaSigno.SP.csproj" />
+  </ItemGroup>
+
+</Project>
